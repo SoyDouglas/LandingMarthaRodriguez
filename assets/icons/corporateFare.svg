@@ -1,0 +1,11 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1948a;
+      }
+    </style>
+  </defs>
+  <title>corporateFare</title>
+  <path class="cls-1" d="M2,21V3H12V7H22V21Zm2-2h6V17H4Zm0-4h6V13H4Zm0-4h6V9H4ZM4,7h6V5H4Zm8,12h8V9H12Zm2-6V11h4v2Zm0,4V15h4v2Z" transform="translate(-2 -3)"/>
+</svg>

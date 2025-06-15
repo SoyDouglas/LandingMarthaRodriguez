@@ -1,0 +1,11 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1948a;
+      }
+    </style>
+  </defs>
+  <title>stock</title>
+  <path class="cls-1" d="M3,21V19l2-2v4Zm4,0V15l2-2v8Zm4,0V13l2,2v6Zm4,0V15l2-2v8Zm4,0V11l2-2V21ZM3,15.82V13l7-7,4,4,7-7V5.82l-7,7-4-4Z" transform="translate(-3 -3)"/>
+</svg>

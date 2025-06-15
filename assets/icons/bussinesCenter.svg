@@ -1,0 +1,11 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1948a;
+      }
+    </style>
+  </defs>
+  <title>bussinesCenter</title>
+  <path class="cls-1" d="M4,21a1.93,1.93,0,0,1-1.41-.59A1.93,1.93,0,0,1,2,19V8a1.93,1.93,0,0,1,.59-1.41A1.93,1.93,0,0,1,4,6H8V4a1.93,1.93,0,0,1,.59-1.41A1.93,1.93,0,0,1,10,2h4a1.93,1.93,0,0,1,1.41.59A1.93,1.93,0,0,1,16,4V6h4a2,2,0,0,1,2,2V19a2,2,0,0,1-2,2ZM10,6h4V4H10Zm10,9H15v2H9V15H4v4H20Zm-9,0h2V13H11ZM4,13H9V11h6v2h5V8H4Z" transform="translate(-2 -2)"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1948a;
+      }
+    </style>
+  </defs>
+  <title>receipt</title>
+  <path class="cls-1" d="M3,22V2L4.5,3.5,6,2,7.5,3.5,9,2l1.5,1.5L12,2l1.5,1.5L15,2l1.5,1.5L18,2l1.5,1.5L21,2V22l-1.5-1.5L18,22l-1.5-1.5L15,22l-1.5-1.5L12,22l-1.5-1.5L9,22,7.5,20.5,6,22,4.5,20.5Zm3-5H18V15H6Zm0-4H18V11H6ZM6,9H18V7H6ZM5,19.1H19V4.9H5ZM5,4.9v0Z" transform="translate(-3 -2)"/>
+</svg>

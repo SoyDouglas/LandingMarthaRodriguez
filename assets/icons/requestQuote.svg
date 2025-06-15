@@ -1,0 +1,11 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1948a;
+      }
+    </style>
+  </defs>
+  <title>requestQuote</title>
+  <path class="cls-1" d="M11,19h2V18h1a1,1,0,0,0,1-1V14a1,1,0,0,0-1-1H11V12h4V10H13V9H11v1H10a1,1,0,0,0-1,1v3a1,1,0,0,0,1,1h3v1H9v2h2ZM6,22a2,2,0,0,1-2-2V4a1.93,1.93,0,0,1,.59-1.41A1.93,1.93,0,0,1,6,2h8l6,6V20a2,2,0,0,1-2,2ZM13,8V4H6V20H18V8ZM6,4V4Z" transform="translate(-4 -2)"/>
+</svg>
