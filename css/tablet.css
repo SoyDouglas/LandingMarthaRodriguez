@@ -378,6 +378,22 @@ body {
   height: 4rem;
 }
 
+/* Reserva espacio y color para el mensaje de error */
+.error-message {
+  display: block;
+  font-size: 1.2rem;
+  color: #e74c3c;
+  visibility: hidden;
+  margin-top: 0.4rem;
+}
+
+/* Resaltar el input en rojo */
+input.error,
+textarea.error {
+  border-color: #e74c3c;
+}
+
+
 /* FOOTER */
 .footer {
   background-color: var(--color-principal);
