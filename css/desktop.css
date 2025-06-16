@@ -61,8 +61,8 @@ body {
 }
 
 .nav-list a {
-    text-decoration: none; /* Quita el subrayado */
-    color: var(--color-text); /* Hereda o fuerza el color que quieras */
+    text-decoration: none; 
+    color: var(--color-text); 
 }
 
 
@@ -137,6 +137,10 @@ body {
     border-radius: 60px;
 }
 
+.hero-button:hover {
+  transform: translateY(-2px);
+}
+
 /* About Me */
 
 .section-about {
@@ -173,20 +177,20 @@ body {
     align-items: stretch;
 }
 
-/* Cada columna: */
+
 .about-education,
 .about-experience,
 .about-goals {
-  flex: 1 1 280px;                  /* crece hasta llenar, pero mínimo 280px */
-  max-width: 320px;                 /* no se haga demasiado ancha */
+  flex: 1 1 280px;                  
+  max-width: 320px;                 
 }
 
-/* Espacio entre ítems de lista: */
+
 .about-education li,
 .about-experience li,
 .about-goals li {
-  margin-bottom: 1.2rem;            /* más aire entre líneas */
-  line-height: 1.4;                 /* legibilidad */
+  margin-bottom: 1.2rem;            
+  line-height: 1.4;                
 }
 
 .about-columns h3{
@@ -263,7 +267,7 @@ body {
   flex: 0 1 calc(33% - 2rem);
   max-width: calc((100% - 2 * 2rem) / 3);      
   box-sizing: border-box;
-  height: auto;          /* que la altura dependa del contenido */
+  height: auto;          
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -409,7 +413,7 @@ body {
     gap: 1.5rem;
 }
 
-/* Iconos (igual tamaño para todo) */
+/* Same size to all icons */
 .contact-me img,
 .contact-social-media img {
   width: 3.2rem;
@@ -461,7 +465,7 @@ body {
   margin: .5rem 0;
   font-size: 1.4rem;
 }
-/* Redes */
+/* Social media */
 .footer__socials a img {
   width: 2.4rem;
   height: 2.4rem;

@@ -53,7 +53,9 @@ body {
 }
 
 .logo-text {
-  font-size: 2.2rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 1rem;
 }
 
 .nav-list {
@@ -68,7 +70,7 @@ body {
   text-decoration: none;
 }
 
-/* 3) HERO */
+/* HERO */
 .section-hero {
   background-color: var(--color-principal);
   padding: 6rem 3rem 4rem;
