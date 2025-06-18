@@ -137,31 +137,49 @@
                 </div>
 
                 <div class="contact-layout">
-                    <div class="contact-form">
-                        <form name= "contact" method="post"  netlify>
-                            <input type="hidden" name="form-name" value="contact">
-                            <label for="name">
-                                <span>Nombre</span>
-                                <input type="text" id="name" name="name">
-                            </label>
+                <div class="contact-form">
+                    <form name="contact" method="POST" netlify>
+                    <input type="hidden" name="form-name" value="contact">
 
-                            <label for="email">
-                                <span>Email</span>
-                                <input type="email" id="email" name="email">
-                            </label>
+                    <label for="name">
+                        <span>Nombre</span>
+                        <input type="text" id="name" name="name" required>
+                    </label>
 
-                            <label for="phone">
-                                <span>Teléfono</span>
-                                <input type="text" id="phone" name="phone">
-                            </label>
+                    <label for="email">
+                        <span>Email</span>
+                        <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+                        required
+                        >
+                    </label>
 
-                            <label for="message">
-                                <span>Mensaje</span>
-                                <input type="text" id="message" name="message">
-                            </label>
-                            <button type="submit" class="contact-send-form">Enviar mensaje</button>
-                        </form>
-                    </div>
+                    <label for="phone">
+                        <span>Teléfono</span>
+                        <input
+                        type="text"
+                        id="phone"
+                        name="phone"
+                        pattern="^\+57\d{10}$"
+                        required
+                        >
+                    </label>
+
+                    <label for="message">
+                        <span>Mensaje</span>
+                        <textarea id="message" name="message" required></textarea>
+                    </label>
+
+                    <button type="submit" class="contact-send-form">
+                        Enviar mensaje
+                    </button>
+                    </form>
+                </div>
+                </div>
+
 
                     <div class="contact-info">
                         <div class="contact-me">
