@@ -1,0 +1,191 @@
+/* =====================================================
+   thankYou.css
+   ===================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-principal:  #34495E;
+  --color-secundary: #5DADE2;
+  --color-acent:     #F1948A;
+  --color-button:    #f37c6f;
+  --color-backgroud: #FDFEFE;
+  --color-text:      #2C3E50;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--color-principal);
+  color: var(--color-backgroud);
+  line-height: 1.5;
+}
+
+/* -- HEADER -- */
+.header-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-backgroud);
+  padding: 1.5rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-container img {
+  height: 4.5rem;
+}
+
+.logo-text {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+/* -- MAIN thank-you -- */
+.tyMain {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.tyText h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.tyText h3 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.tyText a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-button);
+  color: var(--color-backgroud);
+  padding: 1.2rem 2.4rem;
+  border-radius: 4rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Animación “bounce” en hover */
+.tyText a:hover {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40%                  { transform: translateY(-8px); }
+  60%                  { transform: translateY(-4px); }
+}
+
+/* -- FOOTER -- */
+.footer {
+  background-color: var(--color-backgroud);
+  color: var(--color-principal);
+  padding: 3rem 1.5rem 2rem;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__nav a {
+  margin: 0 .5rem;
+  font-size: 1.4rem;
+  color: var(--color-principal);
+  text-decoration: none;
+}
+
+.footer__contact p {
+  font-size: 1.4rem;
+}
+
+.footer__socials a img {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: 1rem;
+}
+
+.footer__copy {
+  font-size: 1.2rem;
+  opacity: .7;
+  margin-top: 1.5rem;
+}
+
+/* =====================================================
+   Responsive: Tablet (768px–1023px)
+   ===================================================== */
+@media (min-width: 768px) and (max-width: 1023px) {
+  html { font-size: 11px; }
+
+  .tyText h1 {
+    font-size: 5rem;
+  }
+  .tyText h3 {
+    font-size: 3rem;
+  }
+  .tyText a {
+    font-size: 2rem;
+    padding: 1.4rem 2.8rem;
+  }
+}
+
+/* =====================================================
+   Responsive: Mobile (≤767px)
+   ===================================================== */
+@media (max-width: 767px) {
+  html { font-size: 9px; }
+
+  .logo-text {
+    font-size: 1.8rem;
+  }
+
+  .tyText h1 {
+    font-size: 3rem;
+  }
+  .tyText h3 {
+    font-size: 2rem;
+  }
+  .tyText a {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
+
+  .footer__socials a img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+
+
