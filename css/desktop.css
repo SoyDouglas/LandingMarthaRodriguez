@@ -119,12 +119,17 @@ body {
     color: var(--color-backgroud);    
 }
 
-.hero-charge{
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    color: var(--color-backgroud);
+.hero-charge {
+  margin-bottom: 2.5rem;  
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-backgroud);
+}
+
+.hero-cta {
+  margin-bottom: 2.5rem;  
+  font-size: 2rem;
+  color: var(--color-backgroud);
 }
 
 .hero-button {
@@ -307,7 +312,7 @@ body {
 }
 
 .talkToMe p{
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: var(--color-backgroud);
     margin: 2rem;
 }

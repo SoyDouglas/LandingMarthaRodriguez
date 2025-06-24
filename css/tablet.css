@@ -114,9 +114,16 @@ body {
 }
 
 .hero-charge {
-  font-size: 2.2rem;
+  margin-bottom: 2.5rem;  
+  font-size: 2rem;
+  font-weight: 700;
   color: var(--color-backgroud);
-  margin-bottom: 1.5rem;
+}
+
+.hero-cta {
+  margin-bottom: 2.5rem;  
+  font-size: 2rem;
+  color: var(--color-backgroud);
 }
 
 .hero-button {
@@ -263,7 +270,7 @@ body {
 }
 
 .talkToMe p {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   max-width: 50rem;
   margin: 0 auto 4rem;
   color: var(--color-backgroud);

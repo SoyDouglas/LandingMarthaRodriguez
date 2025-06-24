@@ -114,6 +114,19 @@ body {
 .hero-charge {
   margin-bottom: 2.5rem;  
   font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-backgroud);
+}
+
+.hero-cta {
+  margin-bottom: 2.5rem;  
+  font-size: 2rem;
+  color: var(--color-backgroud);
+}
+
+.hero-charge {
+  margin-bottom: 2.5rem;  
+  font-size: 2rem;
   color: var(--color-backgroud);
 }
 
@@ -254,7 +267,7 @@ body {
 }
 
 .talkToMe p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: var(--color-backgroud);
     text-align: center;
     margin: 1rem auto 3rem;
